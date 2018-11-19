@@ -1,0 +1,28 @@
+{
+  "name": "desorde.loupbrun.ca",
+  "version": "0.0.1",
+  "description": "Blogue d'Emile Brassard",
+  "main": "index.js",
+  "dependencies": {
+    "postcss-cli": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loup-brun/desorde.loupbrun.ca.git"
+  },
+  "keywords": [
+    "blog",
+    "hugo",
+    "minimal"
+  ],
+  "author": "Louis-Olivier Brassard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loup-brun/desorde.loupbrun.ca/issues"
+  },
+  "homepage": "https://github.com/loup-brun/desorde.loupbrun.ca#readme"
+}
