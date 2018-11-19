@@ -2,7 +2,7 @@ baseURL = "https://desorde.loupbrun.ca/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 title = "Désorde, par Émile Brassard"
-theme = "tale"
+theme = "hugo-theme-desorde"
 [author]
 name = "Émile Brassard"
 [menu]
