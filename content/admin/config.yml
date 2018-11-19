@@ -16,6 +16,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug (nom de fichier)", name: "slug", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "a-propos" # Used in routes, e.g., /admin/collections/blog
@@ -25,4 +26,5 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug (nom de fichier)", name: "slug", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
