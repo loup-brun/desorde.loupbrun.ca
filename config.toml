@@ -1,24 +1,36 @@
 baseURL = "https://desorde.loupbrun.ca/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
-title = "Desorde, par Émile Brassard"
-[author]
-  name = "Émile Brassard"
-
+title = "Désorde, par Émile Brassard"
 theme = "tale"
-
+[author]
+name = "Émile Brassard"
 [menu]
   [[menu.main]]
-    identifier = "accueil"
-    title = "Accueil"
-    name = "Accueil"
-    url = "/"
-    weight = 10
+  identifier = "accueil"
+  title = "Accueil"
+  name = "Accueil"
+  url = "/"
+  weight = 10
 
   [[menu.main]]
-    identifier = "a-propos"
-    title = "À propos"
-    name = "À propos"
-    url = "/a-propos/"
-    weight = 20
+  identifier = "a-propos"
+  title = "À propos"
+  name = "À propos"
+  url = "/a-propos/"
+  weight = 20
+
+  [[menu.home]]
+  identifier = "a-propos"
+  title = "À propos"
+  name = "À propos"
+  url = "/a-propos/"
+  weight = 10
+  
+  [[menu.home]]
+  identifier = "poesie"
+  title = "Poésie"
+  name = "Poésie"
+  url = "#main"
+  weight = 20
 
