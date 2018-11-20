@@ -4,8 +4,6 @@ Le blogue d’Émile brassard
 
 Ce site est construit avec [Hugo](https://gohugo.io/), un générateur de site statique écrit en Go.
 
-[toc]
-
 ## Prérequis techniques
 
 ### Logiciels
@@ -24,36 +22,45 @@ Ce site est construit avec [Hugo](https://gohugo.io/), un générateur de site s
 ## Setup
 
 ```bash
+# 1. Cloner
 # D’abord, s’assurer du répertoire pour cloner, ex. :
 # cd ~/sites
-git clone https://github.com/loup-brun/desorde.loupbrun.ca.git #cloner
-cd desorde.loupbrun.ca # changer de dossier
-npm install # postcss-cli doit être installé séparément
+git clone https://github.com/loup-brun/desorde.loupbrun.ca.git
+
+# 2. Changer de dossier
+cd desorde.loupbrun.ca
+
+# postcss-cli doit être installé séparément
+npm install 
 ```
 
 _Avec ça, on est en business!_
 
 ## Protocole éditorial (avec Git)
 
-0. Cloner le projet  
+### Étape 0. Cloner le projet  
 ```bash
 git clone https://github.com/loup-brun/desorde.loupbrun.ca.git
 ```
-1. Faire des modifications (modifier fichiers avec l’éditeur de texte ou l’éditeur Markdown)
-2. Créer un nœud
-2.1 Spécifier les fichiers
+### Étape 1 : Faire des modifications (modifier fichiers avec l’éditeur de texte ou l’éditeur Markdown)
+
+### Étape 2 : Créer un nœud
+
+#### Étape 2.1 : Spécifier les fichiers
 ```bash
 git add <chemin/du/fichier>
 ```
-2.2 Créer le nœud avec un message
+#### Étape 2.2 : Créer le nœud avec un message
 ```bash
 git commit -m "Mes modifications sur le fichier 001.md"
 ```
-3. Publier (_push_) les changements
+#### Étape 3 : Publier (_push_) les changements
+
 ```bash
 git push origin master
 ```
-4. Rapatrier (_pull_) des changements
+
+### Étape 4 : Rapatrier (_pull_) des changements
 ```bash
 git pull origin master
 ```
