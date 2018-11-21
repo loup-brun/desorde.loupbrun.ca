@@ -12,7 +12,7 @@ Ce site est construit avec [Hugo](https://gohugo.io/), un générateur de site s
 * [Hugo](https://gohugo.io/)
 * [Nodejs](https://nodejs.org/fr) (et npm) pour bâtir les ressources CSS
 
-### Outils :
+### Outils
 
 * **Éditeur de texte** (ex. [Brackets](http://brackets.io/), [Atom](https://atom.io/), [Sublime Text](http://www.sublimetext.com/))
 * **Éditeur Markdown** : au lieu d’utiliser un éditeur de texte, utiliser un éditeur spécifiquement pour Markdown (ex. [Typora](http://www.sublimetext.com/))
