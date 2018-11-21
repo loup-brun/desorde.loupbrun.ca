@@ -42,7 +42,20 @@ _Avec ça, on est en business!_
 ```bash
 git clone https://github.com/loup-brun/desorde.loupbrun.ca.git
 ```
-### Étape 1 : Faire des modifications (modifier fichiers avec l’éditeur de texte ou l’éditeur Markdown)
+### Étape 1 : Modifications 
+
+Modifier les fichiers avec l’éditeur de texte ou l’éditeur Markdown.
+
+Exemple de fichier :
+
+```md
+---
+title: Mon super titre
+date: 2018-01-31
+summary: Mon résumé pour la page d’accueil
+published: true # false pour ne pas publier sur le site 
+---
+```
 
 ### Étape 2 : Créer un nœud
 
