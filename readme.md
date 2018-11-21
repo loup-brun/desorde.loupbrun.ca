@@ -78,13 +78,13 @@ git add <chemin/du/fichier>
 ```bash
 git commit -m "Mes modifications sur le fichier 001.md"
 ```
-#### Étape 3 : Publier (_push_) les changements
+#### Étape 3 : Publier _(push)_ les changements
 
 ```bash
 git push origin master
 ```
 
-### Étape 4 : Rapatrier (_pull_) des changements
+### Étape 4 : Rapatrier _(pull)_ des changements
 ```bash
 git pull origin master
 ```
