@@ -55,6 +55,17 @@ date: 2018-01-31
 summary: Mon résumé pour la page d’accueil
 published: true # false pour ne pas publier sur le site 
 ---
+
+Mon contenu en **Markdown**!
+
+Ceci est un [lien](https://duckduckgo.com)
+
+## Intertitre
+
+* Éléments
+* d’une
+* liste
+
 ```
 
 ### Étape 2 : Créer un nœud
