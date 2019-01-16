@@ -5,9 +5,9 @@ backend:
 media_folder: "static/images" # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: "contenu" # Used in routes, e.g., /admin/collections/blog
-    label: "Contenu" # Used in the UI
-    folder: "content/" # The path to the folder where the documents are stored
+  - name: "p" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "content/p" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
