@@ -1,3 +1,3 @@
 [submodule "themes/hugo-theme-desorde"]
-	path = themes/hugo-theme-desorde
-	url = https://github.com/loup-brun/hugo-theme-desorde.git
+	path=themes/hugo-theme-desorde
+	url=https://github.com/loup-brun/hugo-theme-desorde.git
