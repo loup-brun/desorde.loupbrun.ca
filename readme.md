@@ -1,6 +1,6 @@
 # Desorde
 
-Le blogue d’Émile brassard
+Le blogue de poésie d’Émile brassard.
 
 Ce site est construit avec [Hugo](https://gohugo.io/), un générateur de site statique écrit en Go.
 
