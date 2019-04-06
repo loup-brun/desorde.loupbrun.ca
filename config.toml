@@ -3,8 +3,15 @@ languageCode = "fr"
 DefaultContentLanguage = "fr"
 title = "Désorde, par Émile Brassard"
 theme = "hugo-theme-desorde"
+paginate = 999
+
 [author]
-name = "Émile Brassard"
+  name = "Émile Brassard"
+
+# Catégories/étiquettes
+[taxonomies]
+  categ = "categ"
+
 [menu]
   [[menu.main]]
   identifier = "accueil"
