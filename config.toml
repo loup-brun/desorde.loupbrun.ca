@@ -14,30 +14,24 @@ paginate = 999
 
 [menu]
   [[menu.main]]
-  identifier = "accueil"
-  title = "Accueil"
-  name = "Accueil"
-  url = "/"
+  identifier = "publications"
+  title = "Publications"
+  name = "Publications"
+  url = "/p"
   weight = 10
+
+  [[menu.main]]
+  identifier = "categories"
+  title = "Catégories"
+  name = "Catégories"
+  url = "/categ"
+  weight = 20
 
   [[menu.main]]
   identifier = "a-propos"
   title = "À propos"
   name = "À propos"
   url = "/a-propos/"
-  weight = 20
+  weight = 30
 
-  [[menu.home]]
-  identifier = "a-propos"
-  title = "À propos"
-  name = "À propos"
-  url = "/a-propos/"
-  weight = 10
-  
-  [[menu.home]]
-  identifier = "poesie"
-  title = "Poésie"
-  name = "Poésie"
-  url = "#main"
-  weight = 20
 
