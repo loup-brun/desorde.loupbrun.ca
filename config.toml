@@ -5,6 +5,11 @@ title = "Désorde, par Émile Brassard"
 theme = "hugo-theme-desorde"
 paginate = 999
 
+[params]
+  images = [
+    "/images/couverture.jpg"
+  ]
+
 [author]
   name = "Émile Brassard"
 
@@ -33,5 +38,4 @@ paginate = 999
   name = "À propos"
   url = "/a-propos/"
   weight = 30
-
 
