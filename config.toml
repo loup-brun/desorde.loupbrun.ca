@@ -7,7 +7,7 @@ paginate = 999
 
 [params]
   images = [
-    "/images/couverture.jpg"
+    "/images/couverture.png"
   ]
 
 [author]
