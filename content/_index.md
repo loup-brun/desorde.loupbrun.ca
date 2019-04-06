@@ -6,4 +6,6 @@ featuredSection:
   limit: 5
 ---
 
-_C’est le mois national de la poésie &rarr; [#napomo](/categ/napomo)_
+_C’est le mois national de la poésie_
+
+_[#napomo](/categ/napomo)_
