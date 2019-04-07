@@ -1,0 +1,38 @@
+DefaultContentLanguage: fr
+author:
+  name: Émile Brassard
+baseURL: https://desorde.loupbrun.ca/
+description: Blogue de poésie
+languageCode: fr
+permalinks:
+  categ: /c/:slug
+menu:
+  main:
+  - identifier: publications
+    name: Publications
+    title: Publications
+    url: /p/
+    weight: 10
+#  - identifier: categories
+#    name: Catégories
+#    title: Catégories
+#    url: /categ
+#    weight: 20
+  - identifier: napomo
+    name: "napomo"
+    title: "napomo"
+    url: /napomo/
+    weight: 20
+  - identifier: a-propos
+    name: À propos
+    title: À propos
+    url: /a-propos/
+    weight: 30
+paginate: 999
+params:
+  images:
+  - /images/couverture.png
+taxonomies:
+  c: categ
+theme: hugo-theme-desorde
+title: Désorde
