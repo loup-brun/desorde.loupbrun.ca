@@ -1,8 +1,8 @@
 ---
 featuredSection:
-  title: "Dernières publications"
+  title: "Derniers napomos"
   description: ""
-  section: "p"
+  section: "napomo"
   limit: 5
 ---
 
