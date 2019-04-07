@@ -9,8 +9,8 @@ permalinks:
 menu:
   main:
   - identifier: publications
-    name: Entrées
-    title: Entrées
+    name: Publications
+    title: Publications
     url: /p/
     weight: 10
 #  - identifier: categories
@@ -19,9 +19,9 @@ menu:
 #    url: /categ
 #    weight: 20
   - identifier: napomo
-    name: "#napomo"
-    title: "#napomo"
-    url: /c/napomo/
+    name: "napomo"
+    title: "napomo"
+    url: /napomo/
     weight: 20
   - identifier: a-propos
     name: À propos
