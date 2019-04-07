@@ -8,4 +8,4 @@ featuredSection:
 
 _C’est le mois national de la poésie_
 
-_[#napomo](/c/napomo)_
+_[#napomo](/napomo)_
