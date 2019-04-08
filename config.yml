@@ -27,9 +27,9 @@ menu:
 paginate: 999
 params:
   title: "Désorde"
+  author: Émile Brassard
   description: "Blogue de poésie"
   images:
-    - /images/couverture.png
-  author: Émile Brassard
+  - /images/couverture.png
 
 theme: hugo-theme-desorde

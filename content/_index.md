@@ -1,5 +1,6 @@
 ---
-title: Désorde
+images:
+- /images/couverture.png
 featuredSection:
   title: "Derniers napomos"
   description: ""
