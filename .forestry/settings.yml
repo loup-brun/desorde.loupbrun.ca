@@ -15,13 +15,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/admin
-  label: Admin
-  create: all
-  match: "**/*"
-- type: directory
   path: content/p
-  label: P
+  label: Posts
   create: all
   match: "**/*"
 upload_dir: static/uploads
