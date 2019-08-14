@@ -1,7 +1,8 @@
 ---
 title: À propos
-layout: single
+type: single
 author: false
+paginate: false
 ---
 
 Émile Brassard, poète et homme du monde.  

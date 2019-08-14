@@ -13,5 +13,5 @@ build:
 	hugo '--minify'
 
 build-staging:
-	hugo --config=config.toml,config.staging.toml --minify
+	hugo --config=config.yml,config.staging.yml --minify
 

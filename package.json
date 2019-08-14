@@ -1,13 +1,14 @@
 {
   "name": "desorde.loupbrun.ca",
   "version": "0.0.1",
-  "description": "Blogue d'Emile Brassard",
+  "description": "Blogue de poésie Émile Brassard",
   "main": "index.js",
   "dependencies": {
     "autoprefixer": "^9.3.1",
-    "postcss-cli": "^6.0.1"
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^6.0.1",
+    "postcss-mixins": "^6.2.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +22,7 @@
     "minimal"
   ],
   "author": "Louis-Olivier Brassard",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/loup-brun/desorde.loupbrun.ca/issues"
   },
