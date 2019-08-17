@@ -1,11 +1,9 @@
+title: Désorde
 DefaultContentLanguage: fr
-author:
-  name: Émile Brassard
 baseURL: https://desorde.loupbrun.ca/
-description: Blogue de poésie
 languageCode: fr
-permalinks:
-  categ: /c/:slug
+author: 
+  name: Émile Brassard 
 menu:
   main:
   - identifier: publications
@@ -30,9 +28,10 @@ menu:
     weight: 30
 paginate: 999
 params:
+  title: "Désorde"
+  author: Émile Brassard
+  description: "Blogue de poésie"
   images:
   - /images/couverture.png
-taxonomies:
-  c: categ
+
 theme: hugo-theme-desorde
-title: Désorde
