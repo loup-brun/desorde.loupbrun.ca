@@ -2,6 +2,8 @@ title: Désorde
 DefaultContentLanguage: fr
 baseURL: https://desorde.loupbrun.ca/
 languageCode: fr
+author: 
+  name: Émile Brassard 
 menu:
   main:
   - identifier: publications

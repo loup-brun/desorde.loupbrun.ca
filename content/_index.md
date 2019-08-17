@@ -1,4 +1,5 @@
 ---
+type: home
 images:
 - /images/couverture.png
 featuredSection:
