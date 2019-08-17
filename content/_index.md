@@ -1,12 +1,11 @@
 ---
-type: home
-images:
-- /images/couverture.png
 featuredSection:
-  title: "Derniers poèmes"
+  title: "Derniers napomos"
   description: ""
-  section: "p"
+  section: "napomo"
   limit: 5
 ---
 
-_bonjour hi_
+_C’est le mois national de la poésie_
+
+_[#napomo](/napomo)_
