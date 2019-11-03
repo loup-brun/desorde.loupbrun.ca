@@ -2,5 +2,4 @@ function espaceFine(searchNode){var regex=new RegExp(/(\u00AB|\u2014)(?:\s+)?|(?
 if(_nodeActuel.nodeType===1&&_balisesExclues.indexOf(_nodeActuel.nodeName.toLowerCase())===-1){arguments.callee(_nodeActuel);}
 if(_nodeActuel.nodeType!==3||!regex.test(_nodeActuel.data)){continue;}
 _parent=_nodeActuel.parentNode;_fragment=(function(){var html=_nodeActuel.data.replace(regex,"$1"+espace+"$2"),wrap=document.createElement('div'),frag=document.createDocumentFragment();wrap.innerHTML=html;while(wrap.firstChild){frag.appendChild(wrap.firstChild);}
-return frag;})();_parent.insertBefore(_fragment,_nodeActuel);_parent.removeChild(_nodeActuel);}}
-document.addEventListener("DOMContentLoaded",function(event){espaceFine();var topBtn=document.getElementById('top');if(topBtn){topBtn.addEventListener('click',function(ev){ev.preventDefault();window.scroll({top:0,left:0,behavior:'smooth'});});}});
+return frag;})();_parent.insertBefore(_fragment,_nodeActuel);_parent.removeChild(_nodeActuel);}};document.addEventListener("DOMContentLoaded",function(event){espaceFine();var topBtn=document.getElementById('top');if(topBtn){topBtn.addEventListener('click',function(ev){ev.preventDefault();window.scroll({top:0,left:0,behavior:'smooth'});});}});
