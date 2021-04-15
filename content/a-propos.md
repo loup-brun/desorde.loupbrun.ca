@@ -5,8 +5,8 @@ author: false
 paginate: false
 ---
 
-écrire
+Blog d'écriture. Log-littérature. Où ctlr-s pull-push accouche de tremblements de lettres. Si tu te sens perdu.e, bienvenue! 
 
-pour en savoir plus et en moins comprendre, écrivez-moé à [emile@loupbrun.ca](mailto:emile@loupbrun.ca)  
+Pour en savoir plus et en moins comprendre, écris à [emile@loupbrun.ca](mailto:emile@loupbrun.ca)  
 
-merci très spécial à Louis ([louis@loupbrun.ca](mailto:louis@loupbrun.ca)) pour la réalisation de ce site ouèbe
+Un mercido très spécial à Lou ([louis@loupbrun.ca](mailto:louis@loupbrun.ca)) pour la réalizassion de ce site ouaibe
